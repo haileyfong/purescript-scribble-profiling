@@ -1,0 +1,191 @@
+module Large;
+
+explicit global protocol ManyBranches(role Client, role Server) {
+  Connect() connect Client to Server;
+  choice at Client {
+    B1() from Client to Server;
+  } or {
+    B2() from Client to Server;
+  } or {
+    B3() from Client to Server;
+  } or {
+    B4() from Client to Server;
+  } or {
+    B5() from Client to Server;
+  } or {
+    B6() from Client to Server;
+  } or {
+    B7() from Client to Server;
+  } or {
+    B8() from Client to Server;
+  } or {
+    B9() from Client to Server;
+  } or {
+    B10() from Client to Server;
+  } or {
+    B11() from Client to Server;
+  } or {
+    B12() from Client to Server;
+  } or {
+    B13() from Client to Server;
+  } or {
+    B14() from Client to Server;
+  } or {
+    B15() from Client to Server;
+  } or {
+    B16() from Client to Server;
+  } or {
+    B17() from Client to Server;
+  } or {
+    B18() from Client to Server;
+  } or {
+    B19() from Client to Server;
+  } or {
+    B20() from Client to Server;
+  } or {
+    B21() from Client to Server;
+  } or {
+    B22() from Client to Server;
+  } or {
+    B23() from Client to Server;
+  } or {
+    B24() from Client to Server;
+  } or {
+    B25() from Client to Server;
+  } or {
+    B26() from Client to Server;
+  } or {
+    B27() from Client to Server;
+  } or {
+    B28() from Client to Server;
+  } or {
+    B29() from Client to Server;
+  } or {
+    B30() from Client to Server;
+  } or {
+    B31() from Client to Server;
+  } or {
+    B32() from Client to Server;
+  } or {
+    B33() from Client to Server;
+  } or {
+    B34() from Client to Server;
+  } or {
+    B35() from Client to Server;
+  } or {
+    B36() from Client to Server;
+  } or {
+    B37() from Client to Server;
+  } or {
+    B38() from Client to Server;
+  } or {
+    B39() from Client to Server;
+  } or {
+    B40() from Client to Server;
+  } or {
+    B41() from Client to Server;
+  } or {
+    B42() from Client to Server;
+  } or {
+    B43() from Client to Server;
+  } or {
+    B44() from Client to Server;
+  } or {
+    B45() from Client to Server;
+  } or {
+    B46() from Client to Server;
+  } or {
+    B47() from Client to Server;
+  } or {
+    B48() from Client to Server;
+  } or {
+    B49() from Client to Server;
+  } or {
+    B50() from Client to Server;
+  } or {
+    B51() from Client to Server;
+  } or {
+    B52() from Client to Server;
+  } or {
+    B53() from Client to Server;
+  } or {
+    B54() from Client to Server;
+  } or {
+    B55() from Client to Server;
+  } or {
+    B56() from Client to Server;
+  } or {
+    B57() from Client to Server;
+  } or {
+    B58() from Client to Server;
+  } or {
+    B59() from Client to Server;
+  } or {
+    B60() from Client to Server;
+  } or {
+    B61() from Client to Server;
+  } or {
+    B62() from Client to Server;
+  } or {
+    B63() from Client to Server;
+  } or {
+    B64() from Client to Server;
+  } or {
+    B65() from Client to Server;
+  } or {
+    B66() from Client to Server;
+  } or {
+    B67() from Client to Server;
+  } or {
+    B68() from Client to Server;
+  } or {
+    B69() from Client to Server;
+  } or {
+    B70() from Client to Server;
+  } or {
+    B71() from Client to Server;
+  } or {
+    B72() from Client to Server;
+  } or {
+    B73() from Client to Server;
+  } or {
+    B74() from Client to Server;
+  } or {
+    B75() from Client to Server;
+  } or {
+    B76() from Client to Server;
+  } or {
+    B77() from Client to Server;
+  } or {
+    B78() from Client to Server;
+  } or {
+    B79() from Client to Server;
+  } or {
+    B80() from Client to Server;
+  } or {
+    B81() from Client to Server;
+  } or {
+    B82() from Client to Server;
+  } or {
+    B83() from Client to Server;
+  } or {
+    B84() from Client to Server;
+  } or {
+    B85() from Client to Server;
+  } or {
+    B86() from Client to Server;
+  } or {
+    B87() from Client to Server;
+  } or {
+    B88() from Client to Server;
+  } or {
+    B89() from Client to Server;
+  } or {
+    B90() from Client to Server;
+  } or {
+    B91() from Client to Server;
+  } or {
+    B92() from Client to Server;
+  disconnect Client and Server;
+  }
+}

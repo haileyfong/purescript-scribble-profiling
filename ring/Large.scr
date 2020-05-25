@@ -1,0 +1,25 @@
+module Large;
+
+explicit global protocol OneToMany(role A, role B2, role B3, role B4, role B5, role B6, role B7) {
+  Connect() connect A to B2;
+  M() from A to B2;
+  Connect() connect B2 to B3;
+  M() from B2 to B3;
+  Connect() connect B3 to B4;
+  M() from B3 to B4;
+  Connect() connect B4 to B5;
+  M() from B4 to B5;
+  Connect() connect B5 to B6;
+  M() from B5 to B6;
+  Connect() connect B6 to B7;
+  M() from B6 to B7;
+  Connect() connect B7 to A;
+  M() from B7 to A;
+  disconnect A and B2;
+  disconnect B2 and B3;
+  disconnect B3 and B4;
+  disconnect B4 and B5;
+  disconnect B5 and B6;
+  disconnect B6 and B7;
+  disconnect B7 and A;
+  }

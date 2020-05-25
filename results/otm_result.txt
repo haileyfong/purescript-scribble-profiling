@@ -1,0 +1,5 @@
+Branches, Wall clock time, User time, System time, Memory (kbytes)
+3, 2.51, 17.12, 1.72,
+5, 3.14, 9.35, 0.82,
+7, 2.75, 4.66, 0.52,
+9, 6.72, 2.77, 0.53,

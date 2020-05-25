@@ -1,0 +1,15 @@
+module OneToMany;
+
+type <purescript> "String" from "Prim" as String;
+
+explicit global protocol OneToMany(role A, role B1, role B2, role B3) {
+  Connect() connect A to B1;
+  M1() from A to B1;
+  Connect() connect A to B2;
+  M2() from A to B2;
+  Connect() connect A to B3;
+  M3() from A to B3;
+  disconnect A and B3;
+  disconnect A and B2;
+  disconnect A and B1;
+}
